@@ -20,12 +20,6 @@ export default function WelcomePage() {
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col justify-center items-center px-4 py-12">
       <div className="w-full max-w-md bg-white rounded-2xl shadow-xl shadow-slate-200/60 border border-slate-100 p-8 sm:p-10 text-center">
-        {/* App Logo */}
-        <div className="flex justify-center mb-3">
-          <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-blue-50 border border-blue-100 shadow-sm">
-            <img src="/logo.svg" alt="TaskFlow Lite Logo" className="w-7 h-7" />
-          </div>
-        </div>
 
         {/* Shield Icon */}
         <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-emerald-50 text-emerald-600 mb-4 border border-emerald-100">
